@@ -1,6 +1,6 @@
-# CUNY Fall 2024
+# CUNY's Secure AI For News Investigations Exercises
 
-This repository contains code and exercises from `Uncovering AI Bias: Investigative Strategies for Reporters` and `Secure AI for News Investigations` taught by John Templon at CUNY during the fall of 2024. It will be regularly updated during that time period.
+This repository contains code and exercises from `Uncovering AI Bias: Investigative Strategies for Reporters` and `Secure AI for News Investigations` taught by John Templon at CUNY. It is regularly updated when he is teaching those classes.
 
 ## Code Examples
 
@@ -24,7 +24,7 @@ The `openai-interaction.ipynb` file is a Jupyter Notebook that sets up some basi
 
 ### Citi Bike Basics
 
-The `CitiBikeBasics.ipynb` file is a Jupyter Notebook that does some basic analysis of Citi Bike data. This notebook requires the `pandas` package to run. You will need to download the `202409-citibike-tripdata.zip` file from Citi Bike's [data repository](https://s3.amazonaws.com/tripdata/index.html) and unzip it into the same directory as the Notebook for it to run properly. (You do not need to unzip the CSVs in the zip.)
+The `CitiBikeBasics.ipynb` file is a Jupyter Notebook that does some basic analysis of Citi Bike data. This notebook requires the `pandas` package to run. You will need to download the `202510-citibike-tripdata.zip` file from Citi Bike's [data repository](https://s3.amazonaws.com/tripdata/index.html) and unzip it into the same directory as the Notebook for it to run properly. (You do not need to unzip the CSVs in the zip.)
 
 ### Citi Bike Real-Time
 
