@@ -51,9 +51,13 @@ The `face-recognition.ipynb` file is a Jupyter Notebook that does basic facial r
 2. Attempt to find faces on the others
 3. Use the last part of the notebook to debug any "issues" finding faces
 
-### Satellite Analysis Basics
+### Satellite Analysis Basics -- Used in 2024
 
-The `satellite-analysis-basics.ipynb` file is a Jupyter Notebook that contains the compontent pieces for doing YOLO object detection with oriented bounding boxes on Umbra's [open data catalog](https://registry.opendata.aws/umbra-open-data/) of satellite images. You will need the following libraries: `boto3`, `ultralytics`, `pandas` and `PIL`. The notebook contains code for finding the images in s3, processing them with YOLO, and making those results more interpretable.
+The `satellite-analysis-basics.ipynb` file is a Jupyter Notebook that contains the component pieces for doing YOLO object detection with oriented bounding boxes on Umbra's [open data catalog](https://registry.opendata.aws/umbra-open-data/) of satellite images. You will need the following libraries: `boto3`, `ultralytics`, `pandas` and `PIL`. The notebook contains code for finding the images in s3, processing them with YOLO, and making those results more interpretable.
+
+### Plane Detection -- New for 2025
+
+The `plane-detection.ipynb` file is a Jupyter Notebook that contains the component pieces for doing YOLO object detection with both oriented bounding boxes and none. You will need `ultralytics`, `pandas`, `numpy`, and `PIL`. The notebook contains a function that makes it easy to process any image with YOLO models. The example images are: `planes-example.jpg` (which is run with OBB and non-OBB models) and the `Screenshot 2025-11-12 at 10.34.22\342\200\257PM.png` which shows an example Google Maps screenshot processed by YOLO.
 
 ### Text Analysis
 
